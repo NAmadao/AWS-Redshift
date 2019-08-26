@@ -64,17 +64,17 @@ pip install boto3
 
 4. Run *create_cluster.py* 
     ```python
-    create_cluster.py
+    python create_cluster.py
     ```
 5. Verify that dwh.cfg file has been generated
 
 6. Run *create_tables.py*
     ```python
-    create_tables.py
+    python create_tables.py
     ```
 7. Run *etl.py*
     ```python
-    etl.py
+    python etl.py
     ```
 8. Use query editor in AWS redshift to query data loaded.
 
@@ -82,7 +82,7 @@ pip install boto3
 
 When you want to delete the cluster you can do so through the AWS console or run *delete_cluster.py*
     ```python
-    delete_cluster.py
+    python delete_cluster.py
     ```
 
 ## Note
