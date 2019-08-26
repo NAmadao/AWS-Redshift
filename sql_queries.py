@@ -106,7 +106,7 @@ artist_table_create = (""" \
 
 time_table_create = (""" \
                     CREATE TABLE time ( \
-                        start_time TIMESTAMP, \
+                        start_time TIMESTAMP PRIMARY KEY, \
                         hour INTEGER, \
                         day INTEGER, \
                         week INTEGER, \
